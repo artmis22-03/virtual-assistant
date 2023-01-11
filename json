@@ -1,0 +1,36 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns":[
+                "hi",
+                "hello",
+                "how are you doing?"
+            ],
+            "responses":[
+                "hi hello",
+                "what can i do for you"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns":[
+                "what is your name?",
+                "what should i call you?"
+            ],
+            "responses":[
+                "my name is artmis",
+                "you can call me artmis"
+
+            ]
+        },
+        {
+            "tag":"file",
+            "patterns":[
+                "create a file",
+                "create new file"
+            ],
+            "responses":[]
+        }
+    ]
+}
